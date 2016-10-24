@@ -1,8 +1,10 @@
 node {
-	stage 'Stage 1'
+	stage 'Stage 1- Process Initialization'
 		echo 'hello, pipeline process started'
-	stage 'Checkout'
-		git url: 'https://github.com/iamgowtham29/jenkin_pipeline' 
-	stage 'Stage 2'
-		echo 'process done'
+	stage 'Stage 2 - Checkout'
+		git url: 'https://github.com/iamgowtham29/jenkin_pipeline'
+	stage 'Stage 6 - Build Docker Image'
+		script: 'sudo docker build -t jenkin_pipeline .'
+	stage 'Stage 7 - Deploy Docker Container'
+		script: 'sudo docker run --name jenkin_pipeline -p 8081:8081 -d jenkin_pipeline'	
 }
