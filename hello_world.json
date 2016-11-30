@@ -2,7 +2,7 @@
     "family": "ECS_GOWTHAMAN",
     "containerDefinitions": [
         {
-            "image": "274091617646.dkr.ecr.us-west-1.amazonaws.com/jenkins_master:v_29",
+            "image": "274091617646.dkr.ecr.us-west-1.amazonaws.com/jenkins_master:v_30",
             "name": "hello_world",
             "cpu": 10,
             "memory": 256,
