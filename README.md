@@ -3,7 +3,7 @@ This is sample pipeline application
 
 Jenkins Email Test configurations
 
-New Commite
+Updated Commite
 
 
 
