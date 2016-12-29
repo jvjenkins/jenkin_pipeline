@@ -1,5 +1,5 @@
 {
-    "family": "ECS_GOWTHAMANs",
+    "family": "ECS_GOWTHAMAN'S",
     "containerDefinitions": [
         {
             "image": "274091617646.dkr.ecr.us-west-1.amazonaws.com/jenkins_master:v_30",
