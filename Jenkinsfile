@@ -1,5 +1,5 @@
 node {
-	stage 'Stage 1- Process Initialization'
+	stage 'Stage 1- Process Initialization steps'
 		echo 'PipeLine Process initiated'
 	stage 'Stage 2 - Checkout'
 		git url: 'https://github.com/iamgowtham29/jenkin_pipeline.git'
