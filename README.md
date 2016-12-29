@@ -1,4 +1,4 @@
 # jenkin_pipeline
 This is sample pipeline application
 
-Jenkins Email Test
+Jenkins Email Test results
