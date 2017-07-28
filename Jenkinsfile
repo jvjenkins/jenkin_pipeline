@@ -4,7 +4,7 @@ node {
 	stage 'Stage 2 - Checkout'
 		git url: 'https://github.com/iamgowtham29/jenkin_pipeline.git'
 	stage 'Stage 3 - Build Docker Image'
-		sh "sudo docker build -t jenkin_pipeline ."
+	 	sh 'build-docker'
 	stage 'Stage 4 - Run Docker Container'
 		sh "sudo docker run --name jenkin_pipeline -p 8081:8081 -d jenkin_pipeline"
 	stage 'Stage 5- PipeLine Process Completed'
